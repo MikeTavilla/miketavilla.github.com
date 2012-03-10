@@ -49,4 +49,18 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
+body {
+	margin:0px auto;
+	width:960px;
+	background-color:green;
+}
+#site-header h1 a {
+	display:block;  
+	width:300px; 
+	height:80px;  
+	background:url(images/logo.png) no-repeat top left; 
+	text-indent:-9999px;
+ }
+#top-nav {
+	float:right;
+	}
