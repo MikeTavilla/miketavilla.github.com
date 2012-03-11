@@ -111,6 +111,10 @@ header h1 a {
 	
 }
 
+#top-nav li:first-child {
+	list-style-type:none;
+}
+
 #top-nav li a {
 	display:block;
 	font-size:18px;
