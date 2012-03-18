@@ -109,10 +109,6 @@ body {
 	padding: 3px 10px 3px 10px;
 }
 
-#main-menu li.last {
-	color:#b7c850;
-}
-
 #main-menu li a {
 	text-decoration:none;
 	display:block;
