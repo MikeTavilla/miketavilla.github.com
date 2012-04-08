@@ -104,6 +104,7 @@ header section {
 
 section #typelogo {
 	padding-top:1em;
+	padding-left:3em;
 }
 
 section h1 {
@@ -118,11 +119,12 @@ section h2 {
 	font-family:Georgia;
 	font-weight:bold;
 	font-style:italic;
-	font-size:5em;
+	font-size:4em;
 	color:gray;
 	float:left;
-	border-top:.25em solid gray;
-	border-bottom:.25em solid gray;
+	border-top:.2em solid gray;
+	border-bottom:.2em solid gray;
+	margin-top:.5em;
 }
 
 h3 {
@@ -134,7 +136,6 @@ h3 {
 
 #top-nav {
 	clear:both;
-	position:relative;
 }
 
 #top-nav ul {
@@ -155,6 +156,7 @@ h3 {
 
 #top-nav li:first-child {
 	list-style-type:none;
+	padding-left:8.5em;
 }
 
 #top-nav li a {
@@ -164,14 +166,42 @@ h3 {
 }
 
 @media screen and (max-width:800px) {
+	#top-nav ul {
+		width:100%;
+	}
 	#top-nav li {
 		font-size:.75em;
+		padding:.4em .4em .4em 2.66em;
+	}
+	#site-head {
+		width:100%;
+	}
+	section h1 {
+		font-size:7em;
+	}
+	section h2 {
+		font-size:3em;
+	}
+	h3 {
+		font-size:7em;
 	}
 }
 
 @media screen and (max-width:600px) {
 	#top-nav li {
 		font-size:.5em;
+	}
+	#site-head {
+		width:100%;
+	}
+	section h1 {
+		font-size:5em;
+	}
+	section h2 {
+		font-size:2em;
+	}
+	h3 {
+		font-size:5em;
 	}
 }
 
