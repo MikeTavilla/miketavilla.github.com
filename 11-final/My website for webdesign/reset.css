@@ -83,12 +83,20 @@ body {
 	padding: 10px;
 }
 
+#wrapper {
+	margin:-75px 0 auto;
+	border-top:1px solid black;
+	height:50px;
+	width:1200px;
+	margin-left:150px;
+}
+
 #top-nav {
 	list-style:none;
 	width:940px;
-	margin:30px auto 0px auto;
+	margin:-80px 0px 60px 350px;
 	height:43px;
-	padding:0px 20px 0px 20px;
+	padding:0px 10px 0px 20px;
 }
 
 #top-nav li {
@@ -131,12 +139,17 @@ body {
 	margin-top:7px
 }
 
-section p {
+#jsCarousel {
+	padding-left:100px;
+	padding-right:100px;
+	width:100%;
 	float:left;
 }
 
-img {
-	padding:10px;
+#jsCarousel #carouselh #carousel1 div {
+	float:left;
+	padding-left:10px;
+	padding-right:10px;
 }
 
 footer {
