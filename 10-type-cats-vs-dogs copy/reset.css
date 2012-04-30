@@ -1,0 +1,297 @@
+
+
+/* Meyer Reset */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* Center Content */
+
+.centered { 
+  margin:0 auto;
+  width:960px;
+}
+
+
+/* Clearfix */
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+ 
+.clearfix { display: inline-block; }
+html[xmlns] .clearfix { display: block; }
+* html .clearfix { height: 1%; }
+
+@font-face {
+    font-family: 'LeagueGothicRegular';
+    src: url('fonts/League_Gothic-webfont.eot');
+    src: url('fonts/League_Gothic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/League_Gothic-webfont.woff') format('woff'),
+         url('fonts/League_Gothic-webfont.ttf') format('truetype'),
+         url('fonts/League_Gothic-webfont.svg#LeagueGothicRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+	width:100%;
+	margin:0 auto;
+	max-width:1024px;
+	min-width:400px;
+}
+
+#site-head {
+	width:100%;
+}
+
+header section {
+	position:relative;
+	left:15em
+	padding-top:1.25em;
+	padding-bottom:1.5em;
+}
+
+section #typelogo {
+	padding-top:1em;
+	padding-left:3em;
+}
+
+section h1 {
+	font-family:'LeagueGothicRegular';
+	color:black;
+	font-size:10em;
+	float:left;
+	padding-left:1.25em;
+}
+
+section h2 {
+	font-family:Georgia;
+	font-weight:bold;
+	font-style:italic;
+	font-size:4em;
+	color:gray;
+	float:left;
+	border-top:.2em solid gray;
+	border-bottom:.2em solid gray;
+	margin-top:.5em;
+}
+
+h3 {
+	font-family:'leagueGothicRegular';
+	color:black;
+	font-size:10em;
+	float:left;
+}
+
+#top-nav {
+	clear:both;
+}
+
+#top-nav ul {
+	width:100%;
+	height:2.75em;
+	border-top:3px solid black;
+	border-bottom:3px solid black;
+}
+	
+#top-nav li {
+	float:left;
+	padding:.6em .6em .6em 4em;
+	font-weight:bolder;
+	list-style-type:disc;
+	list-style-position:inside;
+	
+}
+
+#top-nav li:first-child {
+	list-style-type:none;
+	padding-left:8.5em;
+}
+
+#top-nav li a {
+	font-size:1.25em;
+	color:black;
+	text-decoration:none;
+}
+
+@media screen and (max-width:800px) {
+	#top-nav ul {
+		width:100%;
+	}
+	#top-nav li {
+		font-size:.75em;
+		padding:.4em .4em .4em 2.66em;
+	}
+	#site-head {
+		width:100%;
+	}
+	section h1 {
+		font-size:7em;
+	}
+	section h2 {
+		font-size:3em;
+	}
+	h3 {
+		font-size:7em;
+	}
+}
+
+@media screen and (max-width:600px) {
+	#top-nav li {
+		font-size:.5em;
+	}
+	#site-head {
+		width:100%;
+	}
+	section h1 {
+		font-size:5em;
+	}
+	section h2 {
+		font-size:2em;
+	}
+	h3 {
+		font-size:5em;
+	}
+}
+
+article {
+	float:left;
+	width:30%;
+	margin:1.5em;
+	padding-left:2em;
+	line-height:1.3em;
+}
+
+article img {
+	float:left;
+	width:100%;
+}
+
+.image {
+	padding:1.25em 0 .625em 0
+}
+
+@media screen and (maxwidth:600px) {
+	article {
+		padding-left:0em;
+	}
+	.image {
+		padding:0 0 0 0;
+	}
+}
+
+.subtitle {
+	font-family: 'LeagueGothicRegular';
+	float:left;
+	width:100%;
+	padding-top:1.5em;
+	font-size:1.5em;
+}
+
+@media screen and (max-width:800px) {
+	.subtitle {
+		font-size:1.25em;
+	}
+}
+
+@media screen and (max-width:600px) {
+	.subtitle {
+		font-size:1em;
+	}
+}
+
+.copy {
+	float:left;
+	width:100%;
+	padding-top:20px;
+	font-size:1em;
+}
+
+footer {
+	clear:both;
+	padding:1em 0 2em 0;
+	border-top:3px solid black;
+	font-size: .75em;
+}
+
+@media screen and (max-width:800px) {
+	footer {
+		font-size:.5em;
+	}
+	.copy {
+		font-size:.75em;
+	}
+}
+
+@media screen and (max-width:600px) {
+	.subtitle {
+		font-size:.3em;
+	}
+	.copy {
+		font-size:.5em;
+	}
+}
+
+#copyright a {
+	text-decoration:none;
+	color:red;
+}
+
+.content-copyright {
+	float:left;
+}
+
+.creator-copyright {
+	float:right;
+}
