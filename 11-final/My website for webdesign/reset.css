@@ -113,7 +113,6 @@ body {
 	text-decoration:none;
 	color:black;
 	display:block;
-	outline:0;
 }
 
 #top-nav li ul{
@@ -129,7 +128,6 @@ body {
 #top-nav li ul li{
 	float:left;
 	display:block;
-	text-align:left;
 	position:relative;
 	padding:4px 17px 4px 17px;
 	margin-top:7px
@@ -150,5 +148,3 @@ footer {
 	clear:both;
 	background-color:white;
 }
-	
-	
