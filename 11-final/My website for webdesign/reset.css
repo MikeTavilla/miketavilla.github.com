@@ -80,7 +80,11 @@ body {
 
 #site-head h1 {
 	position:relative;
-	padding: 10px;
+	left:-50px
+}
+
+#site-head h1 img{
+	z-index:2
 }
 
 #top-nav {
@@ -92,7 +96,7 @@ body {
 
 #wrapper {
 	border-top:1px solid black;
-	height:30px;
+	height:0px;
 	width:960px;
 }
 
@@ -130,12 +134,16 @@ body {
 	display:block;
 	position:relative;
 	padding:4px 17px 4px 17px;
-	margin-top:7px
+	margin-top:7px;
+	width:300px;
+	z-index:3;
+	background-color:white;
 }
 
 #jsCarousel {
 	width:100%;
 	float:left;
+	z-index:1;
 }
 
 #jsCarousel #carouselh #carousel1 div {
@@ -144,7 +152,111 @@ body {
 	padding-right:10px;
 }
 
+.hover .project1 {
+	display:block;
+	width:200px;
+	height:600px;
+	background: url("images/project1 copy.jpg") bottom;
+	text-indent:-99999px;
+	}
+	
+.project1:hover {
+	background-position: 0 0;
+	}
+	
+.hover .project2 {
+	display:block;
+	width:200px;
+	height:600px;
+	background: url("images/project2 copy.jpg") bottom;
+	text-indent:-99999px;
+	}
+	
+.project2:hover {
+	background-position: 0 0;
+	}
+	
+.hover .project3 {
+	display:block;
+	width:200px;
+	height:600px;
+	background: url("images/project3 copy.jpg") bottom;
+	text-indent:-99999px;
+	}
+	
+.project3:hover {
+	background-position: 0 0;
+	}
+	
+.hover .project4 {
+	display:block;
+	width:200px;
+	height:600px;
+	background: url("images/project4 copy.jpg") bottom;
+	text-indent:-99999px;
+	}
+	
+.project4:hover {
+	background-position: 0 0;
+	}
+	
+.hover .project5 {
+	display:block;
+	width:200px;
+	height:600px;
+	background: url("images/project5 copy.jpg") bottom;
+	text-indent:-99999px;
+	}
+	
+.project5:hover {
+	background-position: 0 0;
+	}
+	
+.hover .project6 {
+	display:block;
+	width:200px;
+	height:600px;
+	background: url("images/project6 copy.jpg") bottom;
+	text-indent:-99999px;
+	}
+	
+.project6:hover {
+	background-position: 0 0;
+	}
+	
+.hover .project7 {
+	display:block;
+	width:200px;
+	height:600px;
+	background: url("images/project7 copy.jpg") bottom;
+	text-indent:-99999px;
+	}
+	
+.project7:hover {
+	background-position: 0 0;
+	}
+	
+.hover .project8 {
+	display:block;
+	width:200px;
+	height:600px;
+	background: url("images/project8 copy.jpg") bottom;
+	text-indent:-99999px;
+	}
+	
+.project8:hover {
+	background-position: 0 0;
+	}
+	
+#wrapper2 {
+	clear:both;
+	border-top:1px solid black;
+	height:5px;
+	width:960px;
+}
+
 footer {
 	clear:both;
 	background-color:white;
+	font-size:10px;
 }
