@@ -4,8 +4,6 @@
 	<meta charset="UTF-8">
 	<title>Mike Tavilla | Graphic Designer</title>
 	<link rel="stylesheet" href="reset.css" type="text/css" media="screen" />
-	
-	<title>jQuery Thumbnail/Content Slider: jsCarouselV2.0.0</title>
 
     <script src="js/jquery-1.4.4.min.js" type="text/javascript"></script>
 
@@ -14,10 +12,14 @@
     <link href="js/jsCarousel-2.0.0.css" rel="stylesheet" type="text/css" />
 
     <script type="text/javascript">
-        $(document).ready(function() {            
-            $('#carouselh').jsCarousel({ onthumbnailclick: function(src) { alert(src); }, autoscroll: false, circular: true, masked: false, itemstodisplay: 8, orientation: 'h' });
-            $('#carouselhAuto').jsCarousel({ onthumbnailclick: function(src) { alert(src); }, autoscroll: true, masked: true, itemstodisplay: 8, orientation: 'h' });
-		});       
+        $(document).ready(function() {
+
+            $('#carouselv').jsCarousel({ onthumbnailclick: function(src) { alert(src); }, autoscroll: true, masked: false, itemstodisplay: 3, orientation: 'v' });
+            $('#carouselh').jsCarousel({ onthumbnailclick: function(src) { alert(src); }, autoscroll: false, circular: true, masked: false, itemstodisplay: 4, orientation: 'h' });
+            $('#carouselhAuto').jsCarousel({ onthumbnailclick: function(src) { alert(src); }, autoscroll: true, masked: true, itemstodisplay: 4, orientation: 'h' });
+
+        });       
+        
         
     </script>
     
@@ -44,24 +46,24 @@
 		<div id="wrapper"></div>	
 	</header>
 	<div id="jsCarousel">
+		<div id="hWrapper">
 		<div id="carouselh">
-			<div id="carousel1">
 				<div class="hover">
-					<a class="project1" href="#">Fall</a></div>
+					<a class="project8" href="#">howto</a></div>
 				<div class="hover">
-					<a class="project2" href="#LinkURL">Ireland</a></div>
-				<div class="hover">
-					<a class="project3" href="#LinkURL">Elements</a></div>
-				<div class="hover">
-					<a class="project4" href="#LinkURL">Pride</a></div>
-				<div class="hover">
-					<a class="project5" href="#LinkURL">Lemons</a></div>
+					<a class="project7" href="#LinkURL">Lemons</a></div>
 				<div class="hover">
 					<a class="project6" href="#LinkURL">Letters</a></div>
 				<div class="hover">
-					<a class="project7" href="#LinkURL">Filler</a></div>
+					<a class="project5" href="#LinkURL">Filler</a></div>
 				<div class="hover">
-					<a class="project8" href="#LinkURL">Howto</a></div>
+					<a class="project4" href="#LinkURL">Pride</a></div>
+				<div class="hover">
+					<a class="project3" href="#LinkURL">Elements</a></div>
+				<div class="hover">
+					<a class="project2" href="#LinkURL">Ireland</a></div>
+				<div class="hover">
+					<a class="project1" href="project1page.html">Fall</a></div>
 			</div>
 		</div>
 	</div>
