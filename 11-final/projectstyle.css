@@ -30,6 +30,7 @@ time, mark, audio, video {
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
+	margin-top:70px;
 }
 body {
 	line-height: 1;
@@ -144,30 +145,26 @@ body {
 #wrapper3 {
 	margin-top:35px;
 	z-index:1;
+	height:960px;
 }
 
 #slider {
 	z-index:1;
-}
-#jsCarousel {
-	clear:both;
-	width:100%;
-	float:left;
-	z-index:1;
+	height:960px;
 }
 
-#jsCarousel #carouselh #carousel1 div {
-	float:left;
-	padding-left:10px;
-	padding-right:10px;
+section #hover1 {
+	
 }
 
 .hover .project1 {
 	display:block;
 	width:200px;
-	height:600px;
-	background: url("images/project1 copy.jpg") bottom;
+	height:200px;
+	background: url("images/projectpageimgp1.jpg") bottom;
 	text-indent:-99999px;
+	float:left;
+	margin:20px;
 	}
 	
 .project1:hover {
@@ -177,9 +174,11 @@ body {
 .hover .project2 {
 	display:block;
 	width:200px;
-	height:600px;
-	background: url("images/project2 copy.jpg") bottom;
+	height:200px;
+	background: url("images/projectpageimgp2.jpg") bottom;
 	text-indent:-99999px;
+	float:left;
+	margin:20px;
 	}
 	
 .project2:hover {
@@ -189,9 +188,11 @@ body {
 .hover .project3 {
 	display:block;
 	width:200px;
-	height:600px;
-	background: url("images/project3 copy.jpg") bottom;
+	height:200px;
+	background: url("images/projectpageimgp3.jpg") bottom;
 	text-indent:-99999px;
+	float:left;
+	margin:20px;
 	}
 	
 .project3:hover {
@@ -201,9 +202,11 @@ body {
 .hover .project4 {
 	display:block;
 	width:200px;
-	height:600px;
-	background: url("images/project4 copy.jpg") bottom;
+	height:200px;
+	background: url("images/projectpageimgp4.jpg") bottom;
 	text-indent:-99999px;
+	float:left;
+	margin:20px;
 	}
 	
 .project4:hover {
@@ -213,9 +216,11 @@ body {
 .hover .project5 {
 	display:block;
 	width:200px;
-	height:600px;
-	background: url("images/project5 copy.jpg") bottom;
+	height:200px;
+	background: url("images/projectpageimgp5.jpg") bottom;
 	text-indent:-99999px;
+	float:left;
+	margin:20px;
 	}
 	
 .project5:hover {
@@ -225,9 +230,11 @@ body {
 .hover .project6 {
 	display:block;
 	width:200px;
-	height:600px;
-	background: url("images/project6 copy.jpg") bottom;
+	height:200px;
+	background: url("images/projectpageimgp6.jpg") bottom;
 	text-indent:-99999px;
+	float:left;
+	margin:20px;
 	}
 	
 .project6:hover {
@@ -237,9 +244,11 @@ body {
 .hover .project7 {
 	display:block;
 	width:200px;
-	height:600px;
-	background: url("images/project7 copy.jpg") bottom;
+	height:200px;
+	background: url("images/projectpageimgp7.jpg") bottom;
 	text-indent:-99999px;
+	float:left;
+	margin:20px;
 	}
 	
 .project7:hover {
@@ -249,9 +258,11 @@ body {
 .hover .project8 {
 	display:block;
 	width:200px;
-	height:600px;
-	background: url("images/project8 copy.jpg") bottom;
+	height:200px;
+	background: url("images/projectpageimgp8.jpg") bottom;
 	text-indent:-99999px;
+	float:left;
+	margin:20px;
 	}
 	
 .project8:hover {
