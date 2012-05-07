@@ -16,7 +16,7 @@ Author URI: http://dev7studios.com
 .theme-default .nivoSlider img {
 	position:absolute;
 	top:0px;
-	left:0px;
+	left:50%;
 	display:none;
 }
 .theme-default .nivoSlider a {

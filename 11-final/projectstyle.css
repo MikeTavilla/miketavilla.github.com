@@ -30,7 +30,6 @@ time, mark, audio, video {
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
-	margin-top:70px;
 }
 body {
 	line-height: 1;
@@ -153,8 +152,10 @@ body {
 	height:960px;
 }
 
-section #hover1 {
-	
+div p {
+	padding:20px;
+	margin-top:70px;
+	line-height:1.6em;
 }
 
 .hover .project1 {
